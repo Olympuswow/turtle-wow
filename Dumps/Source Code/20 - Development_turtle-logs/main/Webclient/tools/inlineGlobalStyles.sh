@@ -1,2 +1,0 @@
-sed -i "s/<link rel=\"stylesheet\"href=\"styles\..*\([a-zA-Z0-9]\+\).*\.css\">/<style>$(sed 's:/:\\/:g' `ls dist/Webclient/styles.*.css`)<\/style>/" dist/Webclient/index.html
-rm `ls dist/Webclient/styles.*.css`

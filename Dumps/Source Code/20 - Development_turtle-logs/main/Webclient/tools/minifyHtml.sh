@@ -1,1 +1,0 @@
-html-minifier ./dist/Webclient/index.html --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype -o ./dist/Webclient/index.html

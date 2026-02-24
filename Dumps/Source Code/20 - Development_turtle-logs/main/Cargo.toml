@@ -1,3 +1,0 @@
-[workspace]
-members = ["Backend"]
-exclude = ["Exporter/Backend"]
